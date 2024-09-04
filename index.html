@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي التجريبي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #444;
+        }
+        .services, .projects {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service-item, .project-item {
+            flex-basis: 30%;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحبا بكم في موقعي</h1>
+</header>
+
+<nav>
+    <a href="#about">من نحن</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#projects">مشاريعنا</a>
+    <a href="#contact">تواصل معنا</a>
+</nav>
+
+<section id="about">
+    <h2>من نحن</h2>
+    <p>نحن فريق متخصص في تطوير الويب، نركز على تقديم حلول سريعة وفعالة لعملائنا.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>خدماتنا</h2>
+    <div class="service-item">
+        <h3>تطوير المواقع</h3>
+        <p>نقوم بتطوير مواقع ويب مبتكرة وسريعة.</p>
+    </div>
+    <div class="service-item">
+        <h3>تصميم واجهة المستخدم</h3>
+        <p>تصميم واجهات سهلة الاستخدام وجذابة بصرياً.</p>
+    </div>
+    <div class="service-item">
+        <h3>تحسين الأداء</h3>
+        <p>تحسين سرعة المواقع وضمان أفضل أداء ممكن.</p>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>مشاريعنا</h2>
+    <div class="project-item">
+        <h3>مشروع 1</h3>
+        <p>تفاصيل حول المشروع الأول.</p>
+    </div>
+    <div class="project-item">
+        <h3>مشروع 2</h3>
+        <p>تفاصيل حول المشروع الثاني.</p>
+    </div>
+    <div class="project-item">
+        <h3>مشروع 3</h3>
+        <p>تفاصيل حول المشروع الثالث.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>تواصل معنا</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="الاسم">
+        <input type="email" placeholder="البريد الإلكتروني">
+        <textarea placeholder="رسالتك"></textarea>
+        <button type="submit">إرسال</button>
+    </form>
+</section>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2024</p>
+</footer>
+
+</body>
+</html>
